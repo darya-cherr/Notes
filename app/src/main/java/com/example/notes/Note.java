@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class Note implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
-    private int id;
+    public int id;
 
     @ColumnInfo(name = "title")
     private String title;

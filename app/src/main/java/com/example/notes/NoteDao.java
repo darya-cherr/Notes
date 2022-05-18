@@ -6,8 +6,11 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
+import com.example.notes.Note;
+
 import java.util.List;
 
+@Dao
 public interface NoteDao {
 
     @Query("SELECT * FROM notes ORDER BY id DESC")

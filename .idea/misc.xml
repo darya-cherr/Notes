@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/drawable/bg_add_btn.xml" value="0.123" />
         <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/drawable/bg_done.xml" value="0.123" />
+        <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/drawable/bg_item.xml" value="0.123" />
         <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/drawable/bg_search.xml" value="0.123" />
+        <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/drawable/item.xml" value="0.123" />
         <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_create_note.xml" value="0.152" />
         <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Dasha_2/AndroidStudioProjects/Notes/app/src/main/res/layout/item_container.xml" value="0.152" />
       </map>
     </option>
   </component>
