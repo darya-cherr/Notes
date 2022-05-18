@@ -36,7 +36,19 @@
                 android:layout_centerInParent="true"
                 android:src="@drawable/back"
                />
+
             </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/AddImageButton"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:padding="@dimen/_4sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:src="@drawable/ic_baseline_image_24"
+                app:layout_constraintBottom_toBottomOf="@+id/image_back"
+                app:layout_constraintStart_toEndOf="@+id/image_back"
+                app:layout_constraintTop_toTopOf="@id/image_back"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/img_save"
@@ -75,6 +87,18 @@
                 android:inputType="text"
                 />
 
+            <ImageView
+                android:id="@+id/ImageNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/inputNoteTitle"
+                />
+
             <TextView
                 android:id="@+id/text_date"
                 android:layout_width="0dp"
@@ -108,7 +132,7 @@
                 android:textColor="@color/text"
                 android:textSize="@dimen/_18ssp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/inputNoteTitle"/>
+                app:layout_constraintTop_toBottomOf="@+id/ImageNote"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
